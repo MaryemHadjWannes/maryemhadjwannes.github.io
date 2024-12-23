@@ -1,0 +1,332 @@
+<!--index.html-->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0"> 
+    <title>My Portfolio</title> 
+    <link rel="stylesheet"
+        href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="responsive.css"> 
+    <link rel="stylesheet" href="index.css"> 
+</head> 
+
+<body> 
+    <!-- Navbar header section -->
+    <header class="header"> 
+        <nav class="navbar"> 
+            <div class="logo"> 
+                <h2 class="logo-heading">Maryem HadJ Wannes</h2> 
+            </div> 
+            <div class="hamburger" id="hamburger"> 
+                <i class="fas fa-bars hamburger-icon"></i> 
+                <i class="fas fa-times cross-icon"></i> 
+            </div> 
+            <div class="menu"> 
+                <ul class="menu-list"> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#home"> 
+                            Home 
+                        </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#portfolio"> 
+                            Portfolio 
+                        </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#about"> 
+                            About 
+                        </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#services"> 
+                            Services 
+                        </a> 
+                    </li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#contact"> 
+                            Contact Me 
+                        </a> 
+                    </li> 
+                </ul> 
+            </div> 
+        </nav> 
+    </header> 
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero"> 
+        <div class="intro"> 
+            <div class="headings"> 
+                <h3 class="greet-heading">Hello, I'm</h3> 
+                <h1 class="my-heading">Maryem Hadj Wannes</h1> 
+                <h4> 
+                    A Blockchain Developer with Expertise in Smart Contracts,<br>
+                    Formal Verification, and DApp Development. 
+                </h4> 
+            </div> 
+            <div class="intro-buttons"> 
+                <button class="btn common-btn">Hire Me</button> 
+                <button class="btn ghost-btn">Get Resume</button> 
+            </div> 
+        </div> 
+    </section> 
+
+    <!-- Portfolio Section -->
+<section class="portfolio" id="portfolio"> 
+    <div class="portfolio-heading"> 
+        <h1 class="my-heading text-center">Featured Portfolio</h1> 
+    </div> 
+    <div class="portfolio-content"> 
+        <div class="my-row"> 
+            <div class="my-col"> 
+                <div class="my-card port-card"> 
+                    <div class="image"> 
+                        <img src="./Images/solidityImage.png" alt="Solidity Smart Contract Image"> 
+                    </div> 
+                    <h3 class="greet-heading blue-text">Solidity Smart Contracts</h3> 
+                    <p class="small-para blue-text">Smart Contract Development</p> 
+                </div> 
+            </div> 
+            <div class="my-col"> 
+                <div class="my-card port-card"> 
+                    <div class="image"> 
+                        <img src="./Images/blockchainDevelopment.png" alt="Blockchain Development Image"> 
+                    </div> 
+                    <h3 class="greet-heading blue-text">Blockchain Development</h3> 
+                    <p class="small-para blue-text">Blockchain Solutions</p> 
+                </div> 
+            </div> 
+            <div class="my-col"> 
+                <div class="my-card port-card"> 
+                    <div class="image"> 
+                        <img src="./Images/formalVerification.png" alt="Formal Verification Image"> 
+                    </div> 
+                    <h3 class="greet-heading blue-text">Formal Verification</h3> 
+                    <p class="small-para blue-text">Security and Reliability</p> 
+                </div> 
+            </div> 
+        </div> 
+        <div class="my-row"> 
+            <div class="my-col"> 
+                <div class="my-card port-card"> 
+                    <div class="image"> 
+                        <img src="./Images/dAppImage.png" alt="DApp Development Image"> 
+                    </div> 
+                    <h3 class="greet-heading blue-text">DApp Development</h3> 
+                    <p class="small-para blue-text">Decentralized Applications</p> 
+                </div> 
+            </div> 
+            <div class="my-col"> 
+                <div class="my-card port-card"> 
+                    <div class="image"> 
+                        <img src="./Images/ethereumImage.png" alt="Ethereum Blockchain Image"> 
+                    </div> 
+                    <h3 class="greet-heading blue-text">Ethereum Blockchain</h3> 
+                    <p class="small-para blue-text">Smart Contract Integration</p> 
+                </div> 
+            </div> 
+            <div class="my-col"> 
+                <div class="my-card port-card"> 
+                    <div class="image"> 
+                        <img src="./Images/supplyChainImage.png" alt="Supply Chain Image"> 
+                    </div> 
+                    <h3 class="greet-heading blue-text">Supply Chain Solutions</h3> 
+                    <p class="small-para blue-text">Blockchain in Supply Chain</p> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+</section>
+
+    <!-- About Section -->
+<section id="about" class="about"> 
+    <div class="about-text"> 
+        <h1 class="my-heading">About Me</h1> 
+        <p class="lead-para"> 
+            I am a passionate Blockchain Developer with expertise in smart contract development, formal verification, and decentralized applications (DApps). I specialize in creating secure, reliable, and efficient blockchain solutions, particularly focusing on enhancing the reliability of smart contracts and integrating them into various industries, such as the olive oil supply chain and healthcare.
+        </p> 
+        <p> 
+            With over 2 years of experience in the blockchain field, I have worked extensively with Solidity, Ethereum, and various formal verification tools. My goal is to bridge the gap between complex blockchain technologies and practical real-world applications, ensuring robust, transparent, and scalable solutions for modern industries.
+        </p> 
+    </div> 
+    <div class="about-image"> 
+        <img src="./Images/Maryem-photo.jpg" alt="About Image"> 
+    </div> 
+</section>
+
+   <!-- Services Section -->
+<section class="services" id="services"> 
+    <div class="services-heading"> 
+        <h1 class="my-heading text-center">My Services</h1> 
+    </div> 
+    <div class="services-content"> 
+        <div class="my-row"> 
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <div class="icon"> 
+                        <i class="fas fa-scroll"></i> <!-- Updated icon for Smart Contract Development -->
+                    </div> 
+                    <h3 class="greet-heading blue-text">Smart Contract Development</h3> 
+                    <p class="small-para"> 
+                        I specialize in designing and developing secure and efficient smart contracts using Solidity, ensuring automation and trust in decentralized applications (DApps). 
+                    </p> 
+                </div> 
+            </div> 
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <div class="icon"> 
+                        <i class="fab fa-ethereum"></i> <!-- Updated icon for Blockchain Development -->
+                    </div> 
+                    <h3 class="greet-heading blue-text">Blockchain Development</h3> 
+                    <p class="small-para"> 
+                        I develop custom blockchain solutions using platforms like Ethereum, ensuring secure, decentralized systems for industries such as supply chain and healthcare. 
+                    </p> 
+                </div> 
+            </div> 
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <div class="icon"> 
+                        <i class="fas fa-check-circle"></i> <!-- Updated icon for Formal Verification -->
+                    </div> 
+                    <h3 class="greet-heading blue-text">Formal Verification</h3> 
+                    <p class="small-para"> 
+                        I apply formal verification tools such as SMTChecker and Certora Prover to ensure the correctness and security of smart contracts and blockchain systems. 
+                    </p> 
+                </div> 
+            </div> 
+        </div> 
+        <div class="my-row"> 
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <div class="icon"> 
+                        <i class="fas fa-cogs"></i> <!-- Updated icon for DApp Development -->
+                    </div> 
+                    <h3 class="greet-heading blue-text">DApp Development</h3> 
+                    <p class="small-para"> 
+                        I build decentralized applications (DApps) that interact seamlessly with blockchain systems, ensuring transparency and security in data transactions. 
+                    </p> 
+                </div> 
+            </div> 
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <div class="icon"> 
+                        <i class="fas fa-plug"></i> <!-- Updated icon for Blockchain Integration -->
+                    </div> 
+                    <h3 class="greet-heading blue-text">Blockchain Integration</h3> 
+                    <p class="small-para"> 
+                        I provide blockchain integration services to businesses, enhancing their existing systems with the benefits of decentralization, transparency, and immutability. 
+                    </p> 
+                </div> 
+            </div> 
+            <div class="my-col"> 
+                <div class="my-card"> 
+                    <div class="icon"> 
+                        <i class="fas fa-shield-alt"></i> <!-- Updated icon for Security Audits -->
+                    </div> 
+                    <h3 class="greet-heading blue-text">Security Audits</h3> 
+                    <p class="small-para"> 
+                        I conduct comprehensive security audits for smart contracts and blockchain applications to identify vulnerabilities and ensure that your systems are secure. 
+                    </p> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+</section>
+
+
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact"> 
+        <div class="contact-heading"> 
+            <h1 class="my-heading text-center">Contact Me</h1> 
+        </div> 
+        <div class="contact-content"> 
+            <div class="contact-form-container"> 
+                <h1 class="greet-heading">Get In Touch</h1> 
+                <form class="contact-form" action="#" method="POST">
+                    <input class="form-controls" type="text" placeholder="Your Name">
+                    <input class="form-controls" type="text" placeholder="Your Email">
+                    <input class="form-controls" type="text" placeholder="Your Phone">
+                    <textarea class="form-controls" placeholder="Write your message" name="message" id="" cols="30" rows="10"></textarea>
+                    <input class="form-btn btn common-btn" type="submit" value="Send Message">
+                </form>
+            </div> 
+            <div class="contact-details"> 
+                <h1 class="greet-heading">My Contact Details</h1> 
+                <div class="details"> 
+                    <h5 class="contact-heading">EMAIL</h5> 
+                    <p class="contact-text">maryem.hadjwannes@gmail.com</p> 
+                </div> 
+                <div class="details"> 
+                    <h5 class="contact-heading">PHONE</h5> 
+                    <p class="contact-text">+216 53651867</p> 
+                </div> 
+                <div class="details"> 
+                    <h5 class="contact-heading">ADDRESS</h5> 
+                    <p class="contact-text">Monastir, Tunisia</p> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+
+    <!-- Footer section -->
+    <footer class="footer"> 
+        <div class="footer-content text-center"> 
+            <h4> 
+                Copyright © 2025 All rights reserved | 
+                This portfolio website template is created 
+                by Maryem Hadj Wannes. 
+            </h4> 
+            <div class="social-links"> 
+                <div class="footer-menu"> 
+                    <ul class="footer-menu-list"> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://www.facebook.com/profile.php?id=61550052023421"> 
+                                <i class="fab fa-facebook-f"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://x.com/HWannesMaryem"> 
+                                <i class="fab fa-twitter"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://www.instagram.com/maryem.h.w/"> 
+                                <i class="fab fa-instagram"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://www.linkedin.com/in/maryem-hadj-wannes/"> 
+                                <i class="fab fa-linkedin-in"></i> 
+                            </a> 
+                        </li> 
+                        <li class="footer-list-items"> 
+                            <a class="footer-links" href="https://github.com/MaryemHadjWannes"> 
+                                <i class="fab fa-github"></i> 
+                            </a> 
+                        </li>
+                    </ul> 
+                </div> 
+            </div> 
+        </div> 
+    </footer> 
+
+    <script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"> 
+    </script> 
+    <script src="index.js"></script> 
+</body> 
+
+</html>
